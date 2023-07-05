@@ -1,0 +1,38 @@
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 10rem;
+    background: #fff;
+}
+#header .logo{
+   width: 15rem;
+}
+.menu>li{
+    display: inline;
+    margin-right: 2.8rem;
+}
+.menu>li>a{
+    font-size: 1.5rem;
+    color: #040404;
+    text-decoration: none;
+}
+.header-btns{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 31.5%;
+
+}
+.start-btn>button, .sign-up-btn>button{
+    padding: 1.3rem 2.8rem;
+    font-size: 1.6rem;
+    border-radius:1rem;
+    border: none;
+    background: #FFE2BF;
+    color:#FF8A00;
+}
+.sign-up-btn>button{
+    background: #0064FF;
+    color: white;
+}

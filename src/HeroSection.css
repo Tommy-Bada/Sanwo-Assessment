@@ -1,0 +1,61 @@
+#hero-section{
+    display: flex;
+    padding: 3rem 10rem;
+    justify-content: space-between;
+    align-items: center;
+}
+#hero-section>div>h1{
+    margin-bottom: 2.4rem;
+    width: 100%;
+}
+#hero-text{
+    width: 40%;
+}
+#hero-img{
+    width: 50%;
+}
+#hero-img>img{
+    width: 98%;
+}
+
+#hero-text>div{
+    display: flex;
+}
+.hero-text-1{
+    font-size: 1.5rem;
+    color: #888888;
+    margin-bottom: 2.4rem;
+}
+
+.hero-sign-up-btn, .hero-log-in-btn{
+    display: flex;
+    align-items: center;
+    width: max-content;
+    padding: 1.3rem 2.8rem;
+    border-radius:1rem;
+    border: none;
+    background: #0064FF;
+}
+.hero-log-in-btn>p{
+    color:#FF8A00;
+}
+.hero-log-in-btn{
+    margin-left: 1.6rem;
+    background: #FFE2BF;
+}
+.hero-sign-up-btn>p{
+    color: white;
+}
+.hero-sign-up-btn>p, .hero-log-in-btn>p{
+    font-size: 1.6rem;
+}
+.hero-text-2{
+    margin-top: 4.8rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.hero-text-2>span{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #FF8A00;
+}
