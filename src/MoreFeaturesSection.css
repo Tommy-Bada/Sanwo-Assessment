@@ -33,3 +33,20 @@
     column-gap: 2.4rem;
     margin-bottom: 4.8rem;
 }
+
+@media (max-width: 768px){
+    #more-features{
+        display: block;
+        padding: 3rem 2rem;
+    }
+    #more-features>div{
+        width: 100%;
+        margin-top: 3rem;
+    }
+    .more-features-btn>p{
+        color: white;
+    }
+    .more-features-card{
+        display: block;
+    } 
+}

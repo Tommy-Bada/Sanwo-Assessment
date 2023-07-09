@@ -36,3 +36,26 @@
     background: #0064FF;
     color: white;
 }
+
+.menu-btn{
+    display: none;
+}
+
+@media (max-width: 768px){
+    #header{
+        padding: 2rem;
+    }
+    #header .logo{
+       width: 12rem;
+    }
+    .menu{
+        display: none;
+    }
+    .header-btns{
+       display: none;
+    
+    }
+    .menu-btn{
+        display: block;
+    }
+}

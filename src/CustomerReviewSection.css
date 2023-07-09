@@ -14,3 +14,16 @@
 #customer-review-section>div{
     display: flex;
 }
+
+@media (max-width: 768px){
+    #customer-review-section{
+        display: block;
+        padding: 3rem 2rem;
+    }
+    #customer-review-section>h2{
+        width: 100%;
+    }
+    #customer-review-section>div{
+        display: block;
+    }
+}

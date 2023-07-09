@@ -19,6 +19,9 @@ function Header() {
         <div className='start-btn'><button>Start Express Transaction</button></div>
         <div className='sign-up-btn'><button>Sign Up</button></div>
        </div>
+       <div className='menu-btn'>
+            <button><img src='#' /></button>
+       </div>
       </div>
     )
   }

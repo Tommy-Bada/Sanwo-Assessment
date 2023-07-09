@@ -18,3 +18,15 @@
 .brand-logo{
     margin-right: 2rem;
 }
+
+@media (max-width: 768px){
+    .review-box{
+        padding: 2rem;
+    }
+    .review-box>p{
+        font-size: 1.4rem;
+    }
+    .review-box>div{
+        display: block;
+    }
+}

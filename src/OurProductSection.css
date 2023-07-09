@@ -13,3 +13,17 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media (max-width: 768px){
+    #our-product-section{
+        display: block;
+        padding: 3rem 2rem;
+    }
+    #our-product-section>div{
+        display: block;
+    }
+    #our-product-section>p{
+        width: 100%;
+        margin-top: 3rem;
+    }
+}

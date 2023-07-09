@@ -17,3 +17,19 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+@media (max-width: 768px){
+    #why-sanwo-section{
+        padding: 3rem 2rem;
+    }
+    #why-sanwo-section>h2{
+        width: 100%;
+        margin-bottom: 1.2rem;
+    }
+    #why-sanwo-section>p{
+        width: 100%;
+    }
+    #why-sanwo-section>div{
+        display: block;
+    }
+}

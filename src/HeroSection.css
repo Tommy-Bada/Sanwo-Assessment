@@ -60,3 +60,26 @@
     font-weight: 700;
     color: #FF8A00;
 }
+
+
+@media (max-width: 768px){
+    #hero-section{
+        display: block;
+        padding: 3rem 2rem;
+        text-align: center;
+    }
+    #hero-section>div>h1{
+        margin-bottom: 1rem;
+        font-size: 3.8rem;
+        line-height: 1.2;
+    }
+    #hero-text{
+        width: 100%;
+    }
+    #hero-img{
+        width: 100%;
+    }
+    #hero-img>img{
+        width: 100%;
+    }
+}

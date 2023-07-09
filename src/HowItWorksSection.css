@@ -29,3 +29,28 @@
 .how-it-works-buyer-btn>p, .how-it-works-seller-btn>p{
   color: white;
 }
+.seller-box{
+  flex-direction: row-reverse;
+}
+
+@media (max-width: 768px){
+  #how-it-works-section{
+    display: block;
+    padding: 3rem 2rem;
+    text-align: left;
+  }
+  #how-it-works-section>div{
+    display: block;
+  }
+  .how-it-works-buyer, .how-it-works-seller{
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+  .how-it-works-buyer-btn, .how-it-works-seller-btn{
+    margin: 0;
+
+  }
+  .hiw-image{
+    width: 100%;
+  }
+}

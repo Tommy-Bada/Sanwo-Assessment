@@ -1,0 +1,50 @@
+#get-started-section{
+    margin: 12rem 20rem;
+    padding: 3.2rem;
+    text-align: center;
+    border: solid 1px #0064FF;
+}
+.spiral{
+    position: absolute;
+}
+#get-started-section>h2{
+    width: 50%;
+    margin: 2rem auto;
+}
+.get-started-btns{
+    display: flex;
+    justify-content: space-around;
+}
+.get-started-btns .start-btn, .get-started-btns .gs-sign-up-btn{
+    display: flex;
+    align-items: center;
+    width: max-content;
+    padding: 1.3rem 2.8rem;
+    border-radius:1rem;
+    border: none;
+    background: #FFE2BF ;
+}
+.get-started-btns .gs-sign-up-btn{
+    background: #0064FF;
+}
+.start-btn>p{
+    color: #FF8A00;
+}
+.gs-sign-up-btn>p{
+    color: white;
+}
+
+@media (max-width: 768px){
+    #get-started-section{
+        margin: 0;
+        padding: 2rem;
+        
+    }
+    #get-started-section>h2{
+        width: 100%;
+        margin: 0;
+    }
+    .get-started-btns{
+        display: block;
+    }
+}
