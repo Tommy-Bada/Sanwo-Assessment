@@ -1,0 +1,19 @@
+#why-sanwo-section{
+    padding: 12rem 10rem;
+}
+#why-sanwo-section>h2{
+    width: 30%;
+    line-height: 1.3;
+}
+#why-sanwo-section>h2>span{
+    color: #0064FF;
+    font-size: 4.4rem;
+}
+#why-sanwo-section>p{
+    width: 30%;
+    margin-bottom: 2.4rem;
+}
+#why-sanwo-section>div{
+    display: flex;
+    flex-wrap: wrap;
+}

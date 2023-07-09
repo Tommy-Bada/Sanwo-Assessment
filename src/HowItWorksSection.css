@@ -1,6 +1,31 @@
 #how-it-works-section {
-  padding: 18rem;
+  padding: 12rem 20rem;
+}
+#how-it-works-section>h2{
+  text-align: center;
 }
 #how-it-works-section>div{
   display: flex;
+  justify-content:space-around;
+  align-items: center;
+  margin-top: 4rem;
+}
+.how-it-works-buyer, .how-it-works-seller{
+  width: 40%;
+}
+.how-it-works-buyer>p, .how-it-works-seller>p{
+  margin-top: 2rem;
+  margin-bottom: 1.6rem;
+}
+.how-it-works-buyer-btn, .how-it-works-seller-btn{
+  display: flex;
+  align-items: center;
+  width: max-content;
+  padding: 1.3rem 2.8rem;
+  border-radius:1rem;
+  border: none;
+  background: #0064FF;
+}
+.how-it-works-buyer-btn>p, .how-it-works-seller-btn>p{
+  color: white;
 }

@@ -1,8 +1,9 @@
+import './OurProductSection.css'
 import Box from "./Box"
 
 function OurProductSection(){
     return(
-        <>
+        <div id='our-product-section'>
             <h2>Our Products</h2>
             <p>We reduce fraud between online buyers and sellers by providing a safe platform for them to transact without fear of being duped..</p>
             <div>
@@ -22,7 +23,7 @@ function OurProductSection(){
                 text = "Sign Up as a travel agent or browse through a list of carefully curated travel packages backed by our escrow service."
                 />
             </div>
-        </>
+        </div>
     )
 }
 export default OurProductSection

@@ -1,0 +1,16 @@
+#customer-review-section{
+    padding: 12rem 10rem;
+}
+#customer-review-section>p{
+    color: #FF8A00;
+    text-align: center;
+    font-weight: 600;
+}
+#customer-review-section>h2{
+    text-align: center;
+    width: 60%;
+    margin: 2rem auto;
+}
+#customer-review-section>div{
+    display: flex;
+}

@@ -1,0 +1,20 @@
+.review-box{
+    padding: 3.5rem 4rem;
+    border-radius: 0.8rem;
+    background: white;
+}
+.review-box>p{
+    margin-bottom: 2rem;
+}
+.review-box>div{
+    display: flex;
+    align-items: center;
+}
+.name{
+    color: black;
+    font-weight: 400;
+    font-size: 2rem;
+}
+.brand-logo{
+    margin-right: 2rem;
+}
