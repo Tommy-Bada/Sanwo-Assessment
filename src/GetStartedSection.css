@@ -19,10 +19,11 @@
     display: flex;
     align-items: center;
     width: max-content;
-    padding: 1.3rem 2.8rem;
+    padding: 1.3rem 6rem;
     border-radius:1rem;
     border: none;
     background: #FFE2BF ;
+    column-gap: 1rem;
 }
 .get-started-btns .gs-sign-up-btn{
     background: #0064FF;

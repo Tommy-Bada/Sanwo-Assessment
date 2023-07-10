@@ -25,6 +25,7 @@
   border-radius:1rem;
   border: none;
   background: #0064FF;
+  column-gap: 1rem;
 }
 .how-it-works-buyer-btn>p, .how-it-works-seller-btn>p{
   color: white;

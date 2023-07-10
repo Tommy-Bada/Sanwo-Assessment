@@ -1,5 +1,7 @@
 import './HeroSection.css'
 import heroSectionImage from './assets/hero-section.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 function HeroSection() {
   
     return (
@@ -10,11 +12,11 @@ function HeroSection() {
             <div>
                 <div className='hero-sign-up-btn'>
                     <p>Sign Up for Free</p>
-                    <div><img src='#' /></div>
+                    <div><FontAwesomeIcon icon={faArrowRight} size="xl" style={{color: "#ffffff",}} /></div>
                 </div>
                 <div className='hero-log-in-btn'>
                     <p>Login</p>
-                    <div><img src='#' /></div>
+                    <div><FontAwesomeIcon icon={faArrowRight} size="xl" style={{color: "#FF8A00",}} /></div>
                 </div>
             </div>
             <p className='hero-text-2'>Trusted by over <span>150 e-commerce businesses</span> across Nigeria.</p>

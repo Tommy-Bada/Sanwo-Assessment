@@ -1,4 +1,6 @@
 import './MoreFeaturesSection.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 function MoreFeaturesSection(){
     return(
@@ -8,7 +10,7 @@ function MoreFeaturesSection(){
                 <h2>Do more with your business on Sanwo.</h2>
                 <div className='more-features-btn'>
                     <p>Sign Up for Free</p>
-                    <div><img src='#' /></div>
+                    <div><FontAwesomeIcon icon={faArrowRight} size="xl" style={{color: "#ffffff",}} /></div>
                 </div>
             </div>
             <div>

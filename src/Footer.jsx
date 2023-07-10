@@ -1,5 +1,8 @@
 import './Footer.css'
 import sanwoLogo from './assets/sanwo-logo.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+// import { faFacebookF } from '@fortawesome/free-solid-svg-icons'
 
 function Footer(){
     return(
@@ -9,8 +12,8 @@ function Footer(){
                     <h3>Read Business insights and tips from Olu</h3>
                     <form>
                         <input type="text" name="first-name" placeholder="First name" /><br/>
-                        <input type="email" name="mail" placeholder="Email address" />
-                        <input type="submit" />
+                        <input type="email" name="mail" placeholder="Email address" className='email' />
+                        <button type="submit" className='subscribe'><FontAwesomeIcon icon={faArrowRight} size="2xl" style={{color: "#ffffff",}} /></button>
                     </form>
                     <p>Olu writes the best business growth articles, subscribe to get these articles in your inbox.</p>
                 </div>
