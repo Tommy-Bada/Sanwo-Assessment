@@ -1,5 +1,7 @@
 import './Header.css'
 import sanwoLogo from './assets/sanwo-logo.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 function Header() {
   
@@ -20,7 +22,7 @@ function Header() {
         <div className='sign-up-btn'><button>Sign Up</button></div>
        </div>
        <div className='menu-btn'>
-            <button><img src='#' /></button>
+          <FontAwesomeIcon icon={faBars} size='2xl' />
        </div>
       </div>
     )
