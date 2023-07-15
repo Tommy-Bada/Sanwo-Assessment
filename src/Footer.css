@@ -57,6 +57,7 @@ form>input{
     padding: 1.6rem 1.8rem;
     border:none;
     border-radius: 0 1rem 1rem 0;
+    width: 20%;
 }
 #footer-box{
     width: 60%;
@@ -79,6 +80,7 @@ form>input{
     }
     #newsletter{
         width: 100%;
+        padding: 2rem;
     }
     #footer-links{
         display: flex;

@@ -18,9 +18,12 @@
 .brand-logo{
     margin-right: 2rem;
     width: 5rem;
+    border: solid 2px #0064FF;
+    border-radius: 8px;
 }
 .brand-logo>img{
     width: 100%;
+    border-radius: 8px;
 }
 
 @media (max-width: 768px){
