@@ -2,7 +2,6 @@
     margin: 12rem 20rem;
     padding: 3.2rem;
     text-align: center;
-    border: solid 1px #0064FF;
 }
 .spiral{
     position: absolute;
@@ -47,5 +46,11 @@
     }
     .get-started-btns{
         display: block;
+    }
+    .get-started-btns .start-btn{
+        margin: 2rem auto 0 auto;
+    }
+    .get-started-btns .gs-sign-up-btn{
+        margin: 2rem auto;
     }
 }

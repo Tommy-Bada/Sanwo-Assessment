@@ -4,7 +4,7 @@ function CustomerReview(props){
         <div className="review-box">
            <p>{props.text}</p>
             <div>
-                <div className='brand-logo'><img src="#" /></div>
+                <div className='brand-logo'><img src={props.image} /></div>
                 <div>
                     <p className="name">{props.name}</p>
                     <p className="title">{props.title}</p>

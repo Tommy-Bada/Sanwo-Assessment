@@ -17,6 +17,10 @@
 }
 .brand-logo{
     margin-right: 2rem;
+    width: 5rem;
+}
+.brand-logo>img{
+    width: 100%;
 }
 
 @media (max-width: 768px){
