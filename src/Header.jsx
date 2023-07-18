@@ -4,7 +4,18 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 function Header() {
-  
+  function openMenu(){
+    let menu = document.querySelector("#hamburger-menu")
+    if(menu.classList.contains("closed-menu")){
+      menu.classList.add("opened-menu")
+      menu.classList.remove("closed-menu")
+    }
+    else{
+      menu.classList.remove("opened-menu")
+      menu.classList.add("closed-menu")
+    }
+  }
+
     return (
       <div id='header'>
        <div>
@@ -21,8 +32,8 @@ function Header() {
         <div className='start-btn'><button>Start Express Transaction</button></div>
         <div className='sign-up-btn'><button>Sign Up</button></div>
        </div>
-       <div className='menu-btn'>
-          <FontAwesomeIcon icon={faBars} size='2xl' />
+       <div className='menu-btn' onClick={openMenu}>
+          <FontAwesomeIcon icon={faBars} size='2xl' style={{color:"rgba(0, 0, 0, 0.55)"}} />
        </div>
       </div>
     )
