@@ -44,10 +44,8 @@
 
 
 
-.menu-btns{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.menu-btns>div{
+    margin-bottom: 2rem;   
  
  }
  .menu-start-btn>button, .menu-sign-up-btn>button{
@@ -57,6 +55,7 @@
      border: none;
      background: #FFE2BF;
      color:#FF8A00;
+     
  }
  .menu-sign-up-btn>button{
      background: #0064FF;
