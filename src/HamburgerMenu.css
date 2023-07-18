@@ -1,0 +1,64 @@
+#hamburger-menu{
+    text-align: center;
+    padding: 2rem;
+}
+.closed-menu{
+    display: none;
+}
+.opened-menu{
+    display: block;
+}
+.ham-menu{
+    /* padding: 0;
+    margin: 0;
+    background: red; */
+}
+.ham-menu>li{
+    list-style-type: none;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    color: #040404;
+}
+.ham-menu>li>a , #product-link>p>a{
+    font-size: 1.5rem;
+    color: #040404;
+    text-decoration: none;
+}
+
+#product-link{
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    padding: 2rem 0 0 0;
+    margin-bottom: 2rem;
+}
+#product-link>p{
+    margin-bottom: 2rem;
+}
+.product-link-open{
+    display: block;
+}
+.product-link-close{
+    display: none;
+}
+
+
+
+.menu-btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+ }
+ .menu-start-btn>button, .menu-sign-up-btn>button{
+     padding: 1.2rem 2.4rem;
+     font-size: 1.6rem;
+     border-radius:1rem;
+     border: none;
+     background: #FFE2BF;
+     color:#FF8A00;
+ }
+ .menu-sign-up-btn>button{
+     background: #0064FF;
+     color: white;
+ }
