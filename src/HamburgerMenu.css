@@ -8,11 +8,6 @@
 .opened-menu{
     display: block;
 }
-.ham-menu{
-    /* padding: 0;
-    margin: 0;
-    background: red; */
-}
 .ham-menu>li{
     list-style-type: none;
     margin-bottom: 2rem;

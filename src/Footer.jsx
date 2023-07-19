@@ -2,7 +2,8 @@ import './Footer.css'
 import sanwoLogo from './assets/sanwo-logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
-// import { faFacebookF} from '@fortawesome/free-solid-svg-icons'
+// // import { faFacebookF} from '@fortawesome/free-solid-svg-icons'
+// import { faInstagram} from '@fortawesome/fontawesome-svg-icons'
 
 function Footer(){
     return(
@@ -38,7 +39,7 @@ function Footer(){
                     <div id='footer-socials'>
                         <div><img src={sanwoLogo} /></div>
                         <div id='socials'>
-                            {/* <div><FontAwesomeIcon icon={faFacebookF} /></div> */}
+                            <div><img src="#" alt="Facebook"/></div>
                             <div><img src="#" alt="LinkedIn"/></div>
                             <div><img src="#" alt="Twitter"/></div>
                             <div><img src="#" alt="Instagram"/></div>
