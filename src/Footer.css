@@ -107,6 +107,7 @@ form>input{
     #socials{
         width: 70%;
         margin: 2rem auto;
+        justify-content: space-between;
     }
     .footer-logo{
         width: fit-content;
