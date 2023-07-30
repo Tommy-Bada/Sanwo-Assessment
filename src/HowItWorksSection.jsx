@@ -3,6 +3,7 @@ import './HowItWorksSection.css'
 import seller from './assets/how-it-works-seller.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+// import { gsap } from "gsap";
 
 function HowItWorksSection(){
     return(

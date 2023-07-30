@@ -2,8 +2,8 @@ import './HeroSection.css'
 import heroSectionImage from './assets/hero-section.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
-function HeroSection() {
-  
+    
+function HeroSection() { 
     return (
       <div id='hero-section'>
        <div id='hero-text'>

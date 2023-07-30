@@ -2,9 +2,10 @@ import './Footer.css'
 import sanwoLogo from './assets/sanwo-logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
-// // import { faFacebookF} from '@fortawesome/free-solid-svg-icons'
-// import { faInstagram} from '@fortawesome/fontawesome-svg-icons'
-
+import { faFacebookF} from '@fortawesome/free-brands-svg-icons'
+import { faTwitter} from '@fortawesome/free-brands-svg-icons'
+import { faInstagram} from '@fortawesome/free-brands-svg-icons'
+import { faLinkedinIn} from '@fortawesome/free-brands-svg-icons'
 function Footer(){
     return(
         <footer>
@@ -37,12 +38,12 @@ function Footer(){
                         </div>
                     </div>
                     <div id='footer-socials'>
-                        <div><img src={sanwoLogo} /></div>
+                        <div className='footer-logo'><img src={sanwoLogo} /></div>
                         <div id='socials'>
-                            <div><img src="#" alt="Facebook"/></div>
-                            <div><img src="#" alt="LinkedIn"/></div>
-                            <div><img src="#" alt="Twitter"/></div>
-                            <div><img src="#" alt="Instagram"/></div>
+                            <div className='social-icon'><FontAwesomeIcon icon={faFacebookF} size="xl" style={{color: "#040404",}} /></div>
+                            <div className='social-icon'><FontAwesomeIcon icon={faTwitter} size="xl" style={{color: "#040404",}} /></div>
+                            <div className='social-icon'><FontAwesomeIcon icon={faInstagram} size="xl" style={{color: "#040404",}} /></div>
+                            <div className='social-icon'><FontAwesomeIcon icon={faLinkedinIn} size="xl" style={{color: "#040404",}} /></div>
                         </div>
                     </div>
                 </div>
